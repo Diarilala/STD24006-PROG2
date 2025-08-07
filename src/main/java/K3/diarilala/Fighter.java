@@ -16,7 +16,6 @@ public class Fighter {
     private final String lastName;
     private final String alias;
     private final String weight;
-
     private int win;
     private int loss;
     private int draw;
@@ -29,6 +28,8 @@ public class Fighter {
         this.weight = weight;
 
     }
+
+
 
     public String displayPalmares() {
         return ("win: " + getWin() + " loss: " + getLoss() + " draw: " + getDraw());

@@ -19,14 +19,7 @@ public class League {
     private List<Fighter> fighters;
     private List<Match> matches;
 
-    public String setMatch(Fighter fighter1, Fighter fighter2, Match match) {
-        if(fighter1.equals(fighter2)) {
-            return ("Match impossible");
-        }
-
-    };
-
-    public static void displayPalmares(Fighter fighter) {
-        System.out.println(fighter.displayPalmares());
+    public static void createMatch(Match match) {
+        match = new Match();
     }
 }
